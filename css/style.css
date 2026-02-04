@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: rgb(248, 247, 247);
+
+}
+
+/* header */
+
+.header-logo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+.header-logo img {
+    width: 320px;
+    height: auto;
+}
+
+.fondo-nav {
+
+    background-color: rgb(46, 0, 0);
+}
+
+    
+.navbar-nav .nav-link{
+    margin: 20px;
+}
+
+ul li{
+
+    display: flex;
+    gap: 30px;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+header img { 
+     
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.card {
+    max-width: 100%;
+    height: auto;
+
+}
+
+header nav ul li a{
+    color: rgb(209, 207, 207);
+    background-color: rgb(46, 0, 0);
+    text-decoration: none;
+    
+} 
+
+
+
+
+.imgen_card{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.redes{
+    text-align: center;
+}
+
+/* main*/
+/* sobre-nosotros*/
+h1 { 
+    background-color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+
+}
+/*productos*/
+.titulos{
+
+    text-align: center;
+
+}
+.contenedor{
+    
+    background-color: rgb(46, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 50px;
+}
+.imagen_card{
+
+border-radius: 30px;
+    width: 400px;
+    
+
+}
+
+.img-productos {
+
+    color: aliceblue;
+    text-align: center;
+
+}
+
+
+/*footer*/
+footer{
+    background-color: rgb(48, 39, 39); ;
+    color: aliceblue;
+    
+}
+.redes {
+
+    display: flex; 
+    gap: 10px; ;
+}
+.red{
+
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 10px ;
+   
+}
+
+.red img {
+
+width: 60px;
+height: 60px;
+
+
+}
