@@ -144,3 +144,22 @@ height: 60px;
 
 
 }
+/*  MEDIA QUERIES*/
+
+@media(max-width: 768px){
+    .contenedor{
+        grid-template-columns: 1fr;
+    }
+    .imagen_card{
+        width: 100%;
+        max-width:250px;
+        margin: 0;
+    }
+    .header-logo img{
+        width: 200px;
+    }
+    .redes{
+        flex-direction: column;
+        align-items: center;
+    }
+}
