@@ -128,7 +128,7 @@ header nav ul li a {
 
 /*  main */
 /* Main-Sobrenos */
-.main-sobrenos h2, .main-sobrenos h3 {
+.main-sobrenos h1, .main-sobrenos h2 {
   font-family: fantasy;
   text-align: center;
 }
