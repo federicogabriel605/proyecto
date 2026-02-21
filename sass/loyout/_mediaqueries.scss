@@ -1,0 +1,76 @@
+/*  MEDIAQUERIES*/
+
+
+/* Productos */
+
+
+@media(max-width: 500px){
+    .contenedor{
+       
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .imagen_card{
+        width: 100%;
+        max-width:250px;
+        margin: 0;
+    }
+    .header-logo img{
+        width: 200px;
+    }
+    .redes{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+ 
+@media(max-width: 500px){
+
+.promos-prod{
+    grid-template-columns: 1rf;
+
+}
+.imagen-promo{
+    width: 100%;
+    height: auto;
+}
+
+
+}
+
+@media(max-width: 500px){
+
+.sobrenos{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    
+}
+.sobrenos.img{
+
+    width: 100%;
+
+}
+
+}
+@media(max-width: 500px){
+
+.promos-prod{
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.imagen-promo{
+    width: 100%;
+
+}
+.imagen-promo img{
+    width: 100%;
+}
+}
+

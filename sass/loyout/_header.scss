@@ -1,0 +1,87 @@
+@use "../utilities/variables" as *;
+
+
+/* Body */
+body{  
+    
+    background-color:$bg-body;
+    
+}
+ 
+.header-logo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+.header-logo img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.fondo-nav {
+
+    background-color:$bg-nav;
+    position: sticky;
+    top: 0px;
+    
+    
+
+}
+
+    
+.navbar-nav .nav-link{
+    margin: 20px;
+    
+}
+
+ul li{
+
+    display: flex;
+    gap: 30px;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+header img { 
+     
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.card {
+    max-width: 100%;
+    height: auto;
+
+}
+
+header nav ul li a{
+   
+    background-color:$bg-nav;
+    text-decoration: none;
+    
+    
+} 
+
+
+
+
+.imgen_card{
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.redes{
+    text-align: center;
+}
+/* carrucel */
+.carousel-inner {
+    border-radius: 30px;
+
+}
