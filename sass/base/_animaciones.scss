@@ -1,0 +1,31 @@
+/*Animacionn productos*/
+
+.imagen_card{
+    transition: transform 1s ease;
+    
+}
+.imagen_card:hover{
+
+    transform: scale(1.5);
+    
+
+}
+
+
+.boton-comprar{
+
+    background-color:slategrey  ;
+    color: white;
+    border: 2px solid ;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:all ;
+
+}
+.boton-comprar:hover{
+
+    background-color:slategrey  ;
+    box-shadow: 0 0 15px rgba(255,255,255,0.6);
+    transform: scale(1.05);
+}
